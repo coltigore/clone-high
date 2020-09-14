@@ -2,8 +2,8 @@ yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
  
 # Introduction
-name = input("What is your name, adventurer?\n")
-print("Greetings, " + name + ". Let us go on a quest!")
+name = input("Err ehh, who are you, chowdah head?\n")
+print("Alight, " + name + ". Welcome to Clone High!")
 print("You find yourself on the edge of a dark forest.")
 print("Can you find your way through?\n")
  
