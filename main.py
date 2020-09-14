@@ -2,10 +2,9 @@ yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
  
 # Introduction
-name = input("Err ehh, who are you, chowdah head?\n")
-print("Alight, " + name + ". Welcome to Clone High!")
-print("You find yourself on the edge of a dark forest.")
-print("Can you find your way through?\n")
+name = input("*You awaken in a high school Boy's room. Standing before you is the 16 year-old clone of JFK* Err ehh, who are you, chowdah head?\n")
+print("" + name + ", Eh? Welcome to Clone High!")
+print("*JFK Punches you in the gut and walks out of the bathroom laughing*\n")
  
 # Start of game
 response = ""
