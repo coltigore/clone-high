@@ -2,16 +2,16 @@ yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
  
 # Introduction
-name = input("*You awaken in a high school Boy's room. Standing before you is the 16 year-old clone of JFK* Err ehh, who are you, chowdah head?\n")
+name = input("*You awaken in a high school Boy's room. Standing before you is the 16 year-old clone of JFK* Err ehh, just who are you, chowdah head?\n")
 print("" + name + ", Eh? Welcome to Clone High!")
 print("*JFK Punches you in the gut and walks out of the bathroom laughing*\n")
  
 # Start of game
 response = ""
 while response not in yes_no:
-    response = input("Would you like to step into the forest?\nyes/no\n")
+    response = input("Would you like to step out of the bathroom?\nyes/no\n")
     if response == "yes":
-        print("You head into the forest. You hear crows cawwing in the distance.\n")
+        print("You head out into the hallway. Down the hall you see Abraham Lincoln and Cleopatra talking..\n")
     elif response == "no":
         print("You are not ready for this quest. Goodbye, " + name + ".")
         quit()
