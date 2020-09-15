@@ -11,7 +11,7 @@ response = ""
 while response not in yes_no:
     response = input("Would you like to step out of the bathroom?\nyes/no\n")
     if response == "yes":
-        print("You head out into the hallway. Down the hall you see Abraham Lincoln and Cleopatra talking..\n")
+        print("You head out into the hallway.\n")
     elif response == "no":
         print("You are not ready for this quest. Goodbye, " + name + ".")
         quit()
@@ -21,10 +21,10 @@ while response not in yes_no:
 # Next part of game
 response = ""
 while response not in directions:
-    print("To your left, you see a bear.")
-    print("To your right, there is more forest.")
-    print("There is a rock wall directly in front of you.")
-    print("Behind you is the forest exit.\n")
+    print("To your left, you see Cleopatra and Abraham Lincoln talking with one another.")
+    print("To your right, you se Ghandi, staring at a mural of himself in the nude by Vincent Van Gogh.")
+    print("There is a wall of lockers in front of you.")
+    print("Behind you is door to the bathroom.\n")
     response = input("What direction do you move?\nleft/right/forward/backward\n")
     if response == "left":
         print("The bear eats you. Farewell, " + name + ".")
