@@ -6,7 +6,7 @@ https://trinket.io/python/e5a03e7cbc
 # Project Goals
 Create the game and allow the player to interact with various characters such as JFK, Abe, Cleo, Joan and Ghandi.
 
-Create a GUI that is able to be installed on at least Windows and Linux, eliminating the need to open a terminal and type out "python main.py"
+Create a GUI that is able to be installed on at least Windows and Linux, eliminating the need to open a shell and type out "python main.py" This may end up being achieved as a PWA, or something similar, as I'd also like to learn web development
 
-Clone High is a property of its respective rights holders. They have not authroized this game and took no part in its creation. This is a fan Project
+Clone High is a property of its respective rights holders. They have not authroized this game and took no part in its creation. This is a fan Project.
 
